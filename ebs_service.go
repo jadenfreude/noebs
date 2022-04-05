@@ -8,14 +8,14 @@ import (
 	"os"
 	"strings"
 
-	gateway "github.com/adonese/noebs/apigateway"
-	"github.com/adonese/noebs/cards"
-	"github.com/adonese/noebs/consumer"
-	"github.com/adonese/noebs/dashboard"
-	"github.com/adonese/noebs/docs"
-	"github.com/adonese/noebs/ebs_fields"
-	"github.com/adonese/noebs/merchant"
-	"github.com/adonese/noebs/utils"
+	gateway "github.com/jadenfreude/noebs/apigateway"
+	"github.com/jadenfreude/noebs/cards"
+	"github.com/jadenfreude/noebs/consumer"
+	"github.com/jadenfreude/noebs/dashboard"
+	"github.com/jadenfreude/noebs/docs"
+	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/merchant"
+	"github.com/jadenfreude/noebs/utils"
 	"github.com/bradfitz/iter"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
@@ -191,7 +191,7 @@ func init() {
 // @contact.url https://soluspay.net/support
 // @contact.email adonese@soluspay.net
 // @license.name Apache 2.0
-// @license.url https://github.com/adonese/noebs/LICENSE
+// @license.url https://github.com/jadenfreude/noebs/LICENSE
 // @host beta.soluspay.net
 // @BasePath /api/
 // @securityDefinitions.basic BasicAuth

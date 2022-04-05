@@ -4,7 +4,7 @@ package merchant
 import (
 	"log"
 
-	"github.com/adonese/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/ebs_fields"
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/bcrypt"

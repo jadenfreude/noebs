@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	gateway "github.com/adonese/noebs/apigateway"
+	gateway "github.com/jadenfreude/noebs/apigateway"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
