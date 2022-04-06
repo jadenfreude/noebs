@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/adonese/noebs/ebs_fields"
-	"github.com/adonese/noebs/utils"
+	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/utils"
 	"github.com/alicebob/miniredis"
 	"github.com/go-redis/redis/v7"
 )

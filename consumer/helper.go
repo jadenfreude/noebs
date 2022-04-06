@@ -3,9 +3,9 @@ package consumer
 import (
 	"errors"
 
-	gateway "github.com/adonese/noebs/apigateway"
-	"github.com/adonese/noebs/cards"
-	"github.com/adonese/noebs/utils"
+	gateway "github.com/jadenfreude/noebs/apigateway"
+	"github.com/jadenfreude/noebs/cards"
+	"github.com/jadenfreude/noebs/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v7"
 	"github.com/jinzhu/gorm"

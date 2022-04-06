@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/adonese/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/ebs_fields"
 	"github.com/gin-gonic/gin"
 )
 

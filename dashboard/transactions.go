@@ -2,7 +2,7 @@ package dashboard
 
 import (
 	"encoding/json"
-	"github.com/adonese/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/ebs_fields"
 	"github.com/gin-contrib/multitemplate"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"

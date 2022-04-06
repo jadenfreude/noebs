@@ -1,4 +1,4 @@
-module github.com/adonese/noebs
+module github.com/jadenfreude/noebs
 
 go 1.16
 

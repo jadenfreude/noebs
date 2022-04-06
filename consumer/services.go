@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/adonese/noebs/ebs_fields"
-	"github.com/adonese/noebs/utils"
+	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/utils"
 	"github.com/google/uuid"
 
 	"github.com/gin-gonic/gin"

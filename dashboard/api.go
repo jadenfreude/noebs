@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/adonese/noebs/ebs_fields"
-	"github.com/adonese/noebs/utils"
+	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v7"
 	"github.com/jinzhu/gorm"

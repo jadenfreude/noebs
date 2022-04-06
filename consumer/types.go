@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/adonese/noebs/ebs_fields"
+	"github.com/jadenfreude/noebs/ebs_fields"
 	"github.com/go-redis/redis/v7"
 	"github.com/google/uuid"
 )
