@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jadenfreude/noebs/ebs_fields"
-	"github.com/jadenfreude/noebs/utils"
+	"github.com/adonese/noebs/ebs_fields"
+	"github.com/adonese/noebs/utils"
 	"github.com/adonese/tokenization/tokenization"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

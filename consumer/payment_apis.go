@@ -72,7 +72,7 @@ PIN Block
 Please advice with ebs documentations about iPIN block encryption. You can cite these locations for iPIN implementation:
 
 - https://github.com/adonese/donates (JS)
-- https://github.com/jadenfreude/noebs-wasm (GO)
+- https://github.com/adonese/noebs-wasm (GO)
 - https://github.com/adonese/cashq (Java)
 
 */
@@ -84,10 +84,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/jadenfreude/noebs/dashboard"
-	"github.com/jadenfreude/noebs/ebs_fields"
-	"github.com/jadenfreude/noebs/merchant"
-	"github.com/jadenfreude/noebs/utils"
+	"github.com/adonese/noebs/dashboard"
+	"github.com/adonese/noebs/ebs_fields"
+	"github.com/adonese/noebs/merchant"
+	"github.com/adonese/noebs/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"

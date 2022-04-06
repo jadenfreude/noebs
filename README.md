@@ -1,4 +1,4 @@
-![CI](https://github.com/jadenfreude/noebs/workflows/CI/badge.svg)
+![CI](https://github.com/adonese/noebs/workflows/CI/badge.svg)
 **Keeping' it simple**
 
 # noebs
@@ -10,12 +10,23 @@ Open source payment gateway that implements (most of) EBS services.
 This is an e-payment gateway system. It implements most of EBS's services with clear emphasis on scalabilty and a maintainable code. It is written in Go, a language for building high performant systems. It is also open source, the way any serious project should be. I wrote this software while I was learning Go, I tried to write an idiomatic Go as much as possible.
 
 It is open source and it will remain open source. I will also maintain it and I welcome any contributors help me doing that as well.
-_Our [blog post covers some other aspects about this project](https://medium.com/@jadenfreude/noebs-a-free-and-open-source-payment-gateway-eb70c5dc26fb)_.
+_Our [blog post covers some other aspects about this project](https://medium.com/@adonese/noebs-a-free-and-open-source-payment-gateway-eb70c5dc26fb)_.
 
 # Why this project
 There are many reasons why I started this project. On one hand people can happily rely on EBS MCS webservices to run e.g., a POS. But this is not the goal of this project. I have a vision for the e-payment ecosystem in Sudan, way more beyond the 1SDG purchase fees.
 - a middleware for a many is major entry burden. Well, you have a free one now.
 - having a strong e-payment ecosystem will benefit all of us.
+
+# Prerequisites
+You must have Go v1.16 installed and set to run the build process. Installing [Go Version Manager (GVM)](https://github.com/moovweb/gvm) is recommended if you plan to use more than one version of Go for other projects.
+
+GVM needs Go v1.4 to compile higher versions of Go. Bootstrap using the commands:
+`gvm install go1.4 -B`
+`gvm use go1.4`
+
+Then install Go v1.16 using GVM:
+`gvm install go1.16`
+`gvm use go1.16 [--default]`
 
 # How to use noebs
 
@@ -28,15 +39,15 @@ There are different ways to use noebs:
 ```shell
 # this command may likely takes along time depending on your internet connections.
 # also, make sure you are using a vpn since some of the libraries are hosted in GCE hosting which forbids Sudan
-$ go get github.com/jadenfreude/noebs
-$ cd $GOPATH/github.com/jadenfreude/noebs
+$ go get github.com/adonese/noebs
+$ cd $GOPATH/github.com/adonese/noebs
 $ go build .
 ```
 You will have a binary that after running it will spawn a production ready server!
 
 ## Building using Docker and docker-compose
 We provide an easier way to build and run noebs using Docker.
-- Fork this repository (e.g., `git clone https://github.com/jadenfreude/noebs`)
+- Fork this repository (e.g., `git clone https://github.com/adonese/noebs`)
 - `cd` to noebs root directory (E.g., $HOME/src/noebs)
 - `docker build -t noebs .`  # -t for giving it a name
 - `docker run -it -p 8000:8000 noebs:latest`

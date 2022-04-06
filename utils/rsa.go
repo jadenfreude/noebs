@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/adonese/noebs/ebs_fields"
 	"github.com/go-redis/redis/v7"
 
 	"crypto/x509"

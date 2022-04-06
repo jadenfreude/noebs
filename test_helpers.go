@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/adonese/noebs/ebs_fields"
 	"math/rand"
 	"testing"
 	"time"

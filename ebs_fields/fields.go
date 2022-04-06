@@ -11,7 +11,7 @@ import (
 	"github.com/go-playground/validator/v10"
 )
 
-//go:embed .secrets.json
+
 var secretsFile []byte
 
 type IsAliveFields struct {

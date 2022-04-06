@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/adonese/noebs/ebs_fields"
 )
 
 func MockEbsResponse(field interface{}, res *ebs_fields.GenericEBSResponseFields) {

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jadenfreude/noebs/consumer"
-	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/adonese/noebs/consumer"
+	"github.com/adonese/noebs/ebs_fields"
 	"github.com/go-playground/validator/v10"
 	"github.com/go-redis/redis/v7"
 	"github.com/google/uuid"

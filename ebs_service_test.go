@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/jadenfreude/noebs/ebs_fields"
+	"github.com/adonese/noebs/ebs_fields"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 	"math/rand"
