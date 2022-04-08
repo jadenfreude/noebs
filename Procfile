@@ -1,2 +1,2 @@
-worker: go build .
+release: go build .
 web: ./bin/noebs
