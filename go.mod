@@ -1,7 +1,6 @@
 module github.com/jadenfreude/noebs
 
 // +heroku goVersion go1.16.4
-// +heroku install ./...
 go 1.16
 
 require (
