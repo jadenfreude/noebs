@@ -1,2 +1,2 @@
 worker: go build .
-web: noebs
+web: ./bin/noebs
